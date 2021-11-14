@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Timer, ate 10 segundos">
+    <meta http-equiv="X-UA-Compatible" content="Timer,desafio">
+    <meta name="author" content="Vinicius">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <main id="timer">
+        <div class="container">
+            <div id="theme">
+                <div id="light"><i class="fas fa-sun"></i></div><!--light-->
+                <div id="dark"><i class="far fa-moon"></i></div><!--dark-->
+            </div><!--theme-->
+
+            <div id="box">
+                <h2>Timer</h2>
+                <div id="circleProgress" data-value="1" data-size="300" data-thickness="12">
+                </div><!--circleProgress-->
+                <p id="number">10</p>
+                
+                <button>start</button>
+            </div><!--box-->
+        </div><!--container-->
+    </main><!--timer-->
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.0/circle-progress.js
+    "></script>
+    <script src="js/function.js"></script>
+</body>
+</html>
