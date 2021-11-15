@@ -1,8 +1,3 @@
-🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
-## EM DESENVOLVIMENTO
-🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
-<br/>
-<br/>
 
 ## Timer
 Um simples timer com tema
