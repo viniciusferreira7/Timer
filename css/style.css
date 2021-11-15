@@ -32,12 +32,28 @@ html,body{
     border-radius: 25px;
     position: absolute;
     right: 20%;
-    top:30px;
-    padding: 0 5px;
+    top:5%;
+    cursor:pointer;
+}
+
+#light, #dark{
+    width:100%;
+    border-radius:25px;
+    font-size: 18px;
+}
+
+#light{
+    background-color: #1e2140;
+    color:white;
+}
+
+#dark{
+    background-color: white;
+    color:#1e2140;
 }
 
 #box{
-    padding:30px 2%;
+    padding:5% 2%;
     position: absolute;
     top:50%;
     left:50%;
@@ -64,7 +80,7 @@ html,body{
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    font-size:100px;
+    font-size:6em;
     font-weight: 700;
     color:white;
 }
@@ -80,4 +96,19 @@ html,body{
     font-weight:bold;
     text-transform:uppercase;
     cursor: pointer;
+}
+
+@media screen and (max-width:890px){
+    #theme{
+        max-width:30px;
+        height:60px;
+        flex-direction: column;
+        right: 5%;
+
+    }
+
+    #light, #dark{
+        height:100%;
+        max-width:30px ;
+    }
 }
